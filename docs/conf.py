@@ -15,6 +15,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+from transip import __version__
 
 
 # -- Project information -----------------------------------------------------
@@ -24,9 +25,9 @@ copyright = u'2018, Go About B.V.'
 author = u'Go About B.V.'
 
 # The short X.Y version
-version = u''
+version = __version__
 # The full version, including alpha/beta/rc tags
-release = u'0.4.1'
+release = version
 
 
 # -- General configuration ---------------------------------------------------
