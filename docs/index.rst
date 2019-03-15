@@ -16,7 +16,7 @@ Here is an example of a simple Python program:
    -----END PRIVATE KEY-----
    '''
 
-   # You can specify the private key directly of supply the path to the private
+   # You can specify the private key directly or supply the path to the private
    # key file. The private_key_file will default to `decrypted_key`.
    client = VpsService('accountname', private_key_file='/path/to/decrypted_key')
    client = VpsService('accountname', private_key=PRIVATE_KEY)
